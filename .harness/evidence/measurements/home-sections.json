@@ -1,0 +1,15 @@
+{
+  "observation_id":"HOME-STRUCT-001", "date":"2026-10-09", "method":"transcribed computed rectangles", "viewport":[1440,900], "layout_width":1425, "dpr":1,
+  "sections":[
+    {"id":"SECTION-HERO-001","y":0,"height":702,"padding":"0"},
+    {"id":"SECTION-DEMO-001","y":702,"height":942.8515625,"padding":"56px 59.0112px"},
+    {"id":"SECTION-ORBS-001","y":1644.8515625,"height":946.578125,"padding":"56px 59.0112px"},
+    {"id":"SECTION-PROOF-001","y":2591.4296875,"height":1491.765625,"padding":"0"},
+    {"id":"SECTION-TOKENS-001","y":4083.1953125,"height":456.5859375,"padding":"0"},
+    {"id":"SECTION-EPISODES-001","y":4539.78125,"height":427.4453125,"padding":"56px 59.0112px 0"},
+    {"id":"SECTION-CLI-001","y":4967.2265625,"height":539.1953125,"padding":"56px 59.0112px"},
+    {"id":"SECTION-NEWS-001","y":5506.421875,"height":777.3359375,"padding":"0 59.0112px"},
+    {"id":"SECTION-FOOTER-001","y":6283.7578125,"height":294.5,"padding":"56px 59.0112px"}
+  ],
+  "state":"ordinary viewport, default closed demo sidebar; values may change when controls or scrollbar state change"
+}

@@ -1,0 +1,18 @@
+{
+  "observation_id": "RESP-MATRIX-001",
+  "date": "2026-10-09",
+  "timezone": "Asia/Calcutta",
+  "method": "transcribed read-only computed DOM measurements; not raw export",
+  "url": "https://ampcode.com/",
+  "dpr": 1,
+  "samples": [
+    {"viewport": [1920,1080], "document": [1905,7000], "heading": {"x":601.45,"y":269.14,"width":702.09,"height":58.6,"font_px":65.12,"line_px":58.608,"tracking_px":-3.9072}, "nav_padding":"24px 78.6816px", "grid_columns_px":[437.102,437.102,291.148,291.141,291.141], "hero_copy_font_px":18.784},
+    {"viewport": [1440,900], "document": [1425,6578], "heading": {"x":426.13,"y":276.03,"width":572.73,"height":47.8,"font_px":53.12,"line_px":47.808,"tracking_px":-3.1872}, "nav_padding":"24px 59.0112px", "grid_columns_px":[326.891,326.891,217.734,217.734,217.734], "hero_copy_font_px":17.728},
+    {"viewport": [1280,800], "document": [1265,6409], "heading": {"x":367.7,"y":278.34,"width":529.59,"height":44.2,"font_px":49.12,"line_px":44.208,"tracking_px":-2.9472}, "nav_padding":"24px 52.4544px", "grid_columns_px":[290.148,290.156,193.258,193.266,193.258], "hero_copy_font_px":17.376},
+    {"viewport": [1024,768], "document": [1009,6212], "heading": {"x":274.2,"y":282.01,"width":460.6,"height":38.45,"font_px":42.72,"line_px":38.448,"tracking_px":-2.5632}, "nav_padding":"24px 41.9635px", "grid_columns_px":[231.367,231.375,154.109,154.109,154.109], "hero_copy_font_px":16.8128},
+    {"viewport": [768,1024], "document": [753,7149], "heading": {"x":180.7,"y":283.76,"width":391.61,"height":32.69,"font_px":36.32,"line_px":32.688,"tracking_px":-2.1792}, "nav_padding":"23.04px 22.5859px", "grid_columns_px":[235.938,235.945,235.938], "hero_copy_font_px":16.2496},
+    {"viewport": [390,844], "document": [375,9600], "heading": {"x":24,"y":221.35,"width":327,"height":59.61,"font_px":33.12,"line_px":29.808,"tracking_px":-1.9872}, "nav_padding":"11.7px 16px", "grid_columns_px":[343], "hero_copy_font_px":16, "menu_target_px":[48,48]},
+    {"viewport": [360,800], "document": [345,9701], "heading": {"x":24,"y":219.55,"width":297,"height":59.61,"font_px":33.12,"line_px":29.808,"tracking_px":-1.9872}, "nav_padding":"10.8px 16px", "grid_columns_px":[313], "hero_copy_font_px":16, "menu_target_px":[48,48]}
+  ],
+  "notes": ["Document heights depend on media/sidebar/transcript state and lazy content; these are sample baselines, not invariants.","15px vertical scrollbar at recorded matrix samples; screenshot full-page capture transiently used scrollbar-free width.","Heading reserves longest phrase height even when current phrase is shorter."]
+}
