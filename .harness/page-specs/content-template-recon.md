@@ -2,6 +2,8 @@
 
 Investigation date: 2026-10-09, user timezone Asia/Calcutta. This independent workstream used only `web.run` opens, finds, and link clicks for site inspection. No browser interaction, application code, package installation, form submission, or authentication occurred.
 
+Later browser observations in [browser-template-samples.md](browser-template-samples.md) supersede the specific presentation/control unknowns they resolve. Source metadata is in [content-templates.json](../evidence/observations/content-templates.json). The records below describe this separate web-only workstream.
+
 ## Evidence limits
 
 - CONFIRMED below means confirmed in the primary site's extracted page text or a reported link destination/redirect. It does **not** mean visually confirmed in the root browser.
@@ -98,3 +100,4 @@ Auth sign-up exposes email plus ChatGPT/Google/Apple providers; sign-in addition
 3. Resolve the learning hub's stated hover/tap face previews before reusing it as a static listing.
 4. Verify colors/media variants and intrinsic dimensions; public availability does not establish asset-reuse permission.
 5. Preserve the distinction between content describing Amp product interactions and actual public website interactions.
+

@@ -10,6 +10,8 @@ Evidence IDs refer to [evidence-index.md](evidence-index.md). Browser-derived fa
 
 **CONFIRMED — REPO-001:** `C:\Users\mdsha\Desktop\amp-port` initially existed as an empty directory, including hidden entries. `.harness/` was subsequently created for authorized discovery output. No application manifest, framework, language, dependencies, routing conventions, styling system, build tooling, testing infrastructure, or Git metadata was available in the initial snapshot.
 
+**CONFIRMED — REPO-002:** At the final read-only review, `.git` was present and Git listed discovery harness files. No application files existed outside `.harness` and Git metadata. Git creation/checkpointing was not performed by the documented discovery commands; its provenance is not established here. This later metadata does not supply an application stack.
+
 **UNKNOWN:** The future implementation stack, hosting environment, target browser support policy, and authorized asset sources. A stack must not be silently selected during discovery.
 
 ## Reference mechanisms

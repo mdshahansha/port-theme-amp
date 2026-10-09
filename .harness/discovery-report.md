@@ -36,7 +36,7 @@ The supplied project began empty, so no replacement stack is selected as an exis
 
 ## 6. Risks and unknowns
 
-The highest-priority gaps are durable screenshots and timed motion captures, complete hero/storm lifecycle, runtime reduced-motion/keyboard/touch behavior, remaining media states, Orb scroll choreography and approved asset/font use. URL availability does not grant reuse rights. Exact asset acquisition, font axes and licensing remain unresolved. Lower-depth P1/P2 routes need the visual/state coverage appropriate to the final implementation scope. See [unknowns.md](unknowns.md) and [risk-register.md](risk-register.md) for owners, impact and next checks.
+The highest-priority gaps are durable screenshots and timed motion captures, complete hero/storm lifecycle, runtime reduced-motion/keyboard/touch behavior, remaining media states, Orb scroll choreography and approved asset/font use. URL availability does not grant reuse rights. Exact asset acquisition, font axes and licensing remain unresolved. Lower-depth P1/P2 routes need the visual/state coverage appropriate to the final implementation scope. See [unknowns.md](unknowns.md) and [risk-register.md](risk-register.md) for impact and next checks.
 
 ## 7. Artifacts created
 
@@ -54,7 +54,7 @@ All requested canonical files are present. Their roles are:
 | Future build and verification | implementation-plan.md, verification-plan.md, acceptance-criteria.md |
 | Evidence and gaps | evidence-index.md, unknowns.md, risk-register.md, this report |
 
-`page-specs/` holds homepage anatomy, browser template samples and two source-reconnaissance records. `evidence/` contains measurement JSON, observation ledgers and explicit screenshot/recording limitations. The evidence files are transcribed observations, not raw browser exports. There are no saved screenshot images, recordings or acquired third-party assets in this package.
+`page-specs/` holds homepage anatomy, browser template samples and two source-reconnaissance records. `evidence/` contains measurement JSON, observation ledgers and explicit screenshot/recording limitations. The evidence files are transcribed observations, not raw browser exports. There are no saved screenshot images, recordings or acquired third-party assets in this package. The future acceptance matrix contains 40 planned cases and maps all 26 current motion/interaction inventory IDs; those implementation tests have not been run.
 
 ## 8. Recommended implementation strategy
 
@@ -72,3 +72,4 @@ First close the fidelity blockers and agree the actual stack and asset policy. F
 | F — Handoff readiness | BLOCKED | Another engineer can resume from the package, but still needs critical motion/runtime and durable visual evidence to implement without rediscovery. |
 
 No completion percentage is assigned. The next authorized work remains discovery gap closure; implementation has not started. This report ends the present investigation pass without claiming the mandatory full-readiness outcome.
+

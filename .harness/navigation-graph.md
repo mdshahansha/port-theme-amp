@@ -53,6 +53,13 @@ flowchart TD
   ASSET{"Brand/media asset links\nnot page routes"}
 
   H -. "contains" .-> F
+  H --> CH
+  H --> D
+  H --> M
+  H --> AB
+  H --> SI
+  H --> SU
+  H -->|"logo href /home; tested URL returns /"| H
   H --> P
   H --> A
   H --> O

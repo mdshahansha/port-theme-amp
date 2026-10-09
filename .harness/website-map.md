@@ -48,6 +48,8 @@ Full URLs are authoritative. Page titles below are extraction titles unless iden
 
 ## Route contract summaries
 
+The homepage logo's observed href is https://ampcode.com/home. A later click left the browser at https://ampcode.com/ with the homepage visible (HOME-LOGO-NAV-001). Treat `/home` as a discovered P0 navigation alias with this tested click outcome; direct hard-entry behavior and the redirect mechanism remain unknown. It is not a second independent page template.
+
 These outlines supplement the linked evidence; full visual contracts are in the browser-template samples. Where controls merely appear in extraction, state transitions remain UNKNOWN. Browser findings below resolve only the tested state and viewport.
 
 | Page IDs | Extracted content sequence | Shared/unique components and assets | Public interaction leads; known outcome / gap |

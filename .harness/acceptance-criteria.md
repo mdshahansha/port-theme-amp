@@ -1,6 +1,6 @@
 # Future acceptance matrix
 
-**Status: PLANNED, NOT EXECUTED.** No application exists for testing. The requirements below combine confirmed replacement constraints with clearly marked proposed future thresholds. Root should add every additional important P0 section/interaction/effect from its final inventory before handoff. Evidence IDs resolve through [evidence-index.md](evidence-index.md).
+**Status: PLANNED, NOT EXECUTED.** No application exists for testing. The 40 cases below combine confirmed replacement constraints with clearly marked proposed future thresholds. All 26 current motion/interaction IDs map to cases; newly discovered important effects or controls must receive a mapping before handoff. Evidence IDs resolve through [evidence-index.md](evidence-index.md).
 
 ## Matrix
 

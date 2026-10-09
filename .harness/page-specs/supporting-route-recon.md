@@ -2,7 +2,7 @@
 
 Investigation date: 2026-10-09 (Asia/Calcutta). Method: public primary-source pages returned by web open/click extraction. Browser interactions, computed styles, geometry, actual scroll outcomes, motion, device changes, and network measurements were **not tested** in this workstream. A web click resolves the source link for retrieval; it does not prove the outcome of a browser click. Some retrievals can use the crawl indicated by the tool. No authentication or form submission occurred.
 
-Evidence metadata and exact returned destinations are in `evidence.json`. Stable source URLs below are usable by another investigator; extraction line spans identify what supported each finding.
+Evidence metadata and exact returned destinations are in [supporting-routes.json](../evidence/observations/supporting-routes.json). Later browser findings in [browser-template-samples.md](browser-template-samples.md) supersede specific unknowns below, including App availability, pricing selection and FAQ behavior. The web-only records remain historical observations of this workstream. Stable source URLs below are usable by another investigator; extraction line spans identify what supported each finding.
 
 ## PAGE-PRICING-001 — P1
 
@@ -43,7 +43,7 @@ Sources: [Security](https://ampcode.com/security), [Privacy](https://ampcode.com
 
 ## Additional route/template leads
 
-`evidence.json` records exact destinations established by retrieval. Direct supporting links add `/contact-sales`, guides, docs leaf routes, six Orb capability announcements, Puck/mode announcements, two Orb notes, and a podcast episode template. These should enter the navigation graph, not force deep investigation of every item.
+[supporting-routes.json](../evidence/observations/supporting-routes.json) records exact destinations established by retrieval. Direct supporting links add `/contact-sales`, guides, docs leaf routes, six Orb capability announcements, Puck/mode announcements, two Orb notes, and a podcast episode template. These should enter the navigation graph, not force deep investigation of every item.
 
 Suggested representative P2 samples: `/news/the-dial` (announcement), `/notes/how-to-build-an-agent` (long code article), `/guides/context-management` (guide), `/docs/orbs` (documentation), `/podcast/season-02/episode-05` (episode). Extraction alone is insufficient for template visual or behavioral contracts. Coordinate with the content-template investigator before redoing these.
 
@@ -55,3 +55,5 @@ P3 entries: sign-in, sign-up, workspace (authentication redirect observed by ret
 2. Supporting-browser pass: confirm headings/section order against rendering, capture initial/settled states, semantic roles, 1440/390 samples and keyboard focus.
 3. Podcast player contract and Insiders apply entry require actual browser actions; press-resource fetch failures do not establish broken download links.
 4. Confirm all raw anchor `href` values from DOM. Web extraction loses hashes and sometimes provides only errors for media, so do not reconstruct hash routes from label text.
+
+

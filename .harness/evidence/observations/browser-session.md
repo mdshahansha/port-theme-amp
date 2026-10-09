@@ -7,7 +7,9 @@ Investigation date: 2026-10-09, Asia/Calcutta. Public unauthenticated entry beha
 | ID | URL/conditions/action | Direct result | Limit |
 |---|---|---|---|
 | REPO-001 | Initial read-only folder listing, including hidden | amp-port initially empty | No stack, Git, dependencies or conventions established |
+| REPO-002 | Final read-only filesystem and Git status/listing | .git present; tracked/changed files belong to .harness; no application files outside harness/Git metadata | Git creation/checkpoint provenance not established; no Git mutation performed by discovery commands |
 | HOME-STRUCT-001 | / at 1440×900, DPR1, scroll top and full-page view | Eight top-level sections and footer; root navigation and links; rotating words; feature HTML; immutable asset paths and Svelte class signatures | Full-page screenshot capture transiently changes scrollbar/layout width; use ordinary viewport geometry as baseline |
+| HOME-LOGO-NAV-001 | Clicked first homepage logo anchor with href /home | Browser URL after click was https://ampcode.com/; homepage remained visible | Records this public click outcome; exact server/client redirect mechanism and hard-entry behavior not established |
 | HOME-CSS-001 | Computed styles and inline variables, 1440×900 | Exact palette, fonts, grid ratios, type clamps, title/storm configuration and animation values | CSS values confirm configuration; they do not prove every lifecycle state |
 | RESP-MATRIX-001 | Explicit viewport override, all seven requested sizes; dimensions read from window each time | Values in ../measurements/home-matrix.json | Settled DOM samples, not complete interaction tests at every size |
 | RESP-BOUNDARY-001 | 639/640, 767/768, 1023/1024 at height900 | 639/640 no composition change; nav and 1→3 grid change at768; 3→5 grid at1024 | Other component-specific breakpoints remain open |

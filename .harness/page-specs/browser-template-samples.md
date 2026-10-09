@@ -82,7 +82,7 @@ References: [Introduction](https://ampcode.com/docs), [CLI](https://ampcode.com/
 
 CONFIRMED desktop docs surface `#fafaf8`. Introduction document height 2402px and usable width 1430px. H1 uses system-ui at 40px font size / 40px line height; rectangle x=369, y=142, w=704px. Sidebar `aside` is 280px wide, sticky at top 48px, and measured 852px tall. CLI repeats the H1 geometry and has sampled document height 4299px; its installer uses wide platform buttons plus a command.
 
-This browser evidence resolves the web-only uncertainty about whether grouped docs navigation is a desktop sidebar. It does not establish sidebar scroll-container behavior, collapse rules at intermediate widths, or active-link scrolling.
+This browser evidence resolves the web-only uncertainty about whether grouped docs navigation is a desktop sidebar. It does not establish actual independent sidebar scrolling (the overflow-y:auto declaration is confirmed), collapse rules at intermediate widths, or active-link scrolling.
 
 CONFIRMED mobile interactions:
 
@@ -110,3 +110,4 @@ Settled document height, section positions, grid/card dimensions, loading comple
 ## Coverage and remaining limitations
 
 Only the listed browser samples receive geometry/state confirmation here. Source-text samples `/docs/orbs`, the two video-learning families, and the archived context guide retain their earlier visual and interaction unknowns. P1/P2 measurements are narrower than the seven-profile P0 homepage matrix. Assets were not downloaded, and reuse authorization remains unresolved. No supporting-page motion timeline should be marked complete from these settled browser measurements.
+

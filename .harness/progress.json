@@ -1,7 +1,7 @@
 {
-  "current_phase": "Phase 1 - discovery consolidation and quality gates",
+  "current_phase": "Phase 1 - documented discovery pass concluded; fidelity gaps recorded",
   "status": "discovery_pass_delivered_with_fidelity_blockers",
-  "investigation_timestamp": "2026-10-09T12:06:32.6456337+00:00",
+  "investigation_timestamp": "2026-10-09T12:14:56.7895820+00:00",
   "investigation_date": "2026-10-09",
   "timezone": "Asia/Calcutta",
   "reference": "https://ampcode.com/",
@@ -10,7 +10,8 @@
   "dependencies_changed": false,
   "repository": {
     "output_scope": ".harness discovery documents and evidence only",
-    "initial_state": "Empty directory including hidden files; no application, Git or stack established"
+    "initial_state": "Empty directory including hidden files; no application, Git or stack established",
+    "final_state": ".git present with harness records; no application files outside .harness/Git metadata; no Git mutation performed by discovery commands"
   },
   "browser_conditions": {
     "zoom": "UNKNOWN",
@@ -27,11 +28,9 @@
     "preferred_color_scheme": "dark"
   },
   "discovered_routes": [
-    "https://ampcode.com",
     "https://ampcode.com/",
     "https://ampcode.com/about",
     "https://ampcode.com/app",
-    "https://ampcode.com/app-icon.svg",
     "https://ampcode.com/auth/sign-in",
     "https://ampcode.com/auth/sign-in?returnTo=/settings/model-routing?add%3Dchatgpt",
     "https://ampcode.com/auth/sign-in?returnTo=/workspace",
@@ -60,12 +59,10 @@
     "https://ampcode.com/docs/using-amp/screencasts/orbs/portals-in-orbs",
     "https://ampcode.com/docs/using-amp/screencasts/orbs/test-agent-friendliness",
     "https://ampcode.com/guides/context-management",
+    "https://ampcode.com/home",
     "https://ampcode.com/insiders",
     "https://ampcode.com/install",
-    "https://ampcode.com/logo-dark.svg",
-    "https://ampcode.com/logo-light.svg",
     "https://ampcode.com/modes",
-    "https://ampcode.com/news.rss",
     "https://ampcode.com/news/agents-in-orbs",
     "https://ampcode.com/news/amp-free-is-full-for-now",
     "https://ampcode.com/news/event-driven-orbs",
@@ -111,8 +108,7 @@
       "/news/many-many-pucks",
       "/docs",
       "/docs/cli",
-      "/notes/how-to-build-an-agent",
-      "/docs/the-dial"
+      "/notes/how-to-build-an-agent"
     ],
     "source_text_representatives": [
       "/contact-sales",
@@ -131,7 +127,11 @@
       "/podcast",
       "/podcast/season-02/episode-05"
     ],
-    "status_note": "Browser sampled and text sampled are distinct; neither implies complete state coverage"
+    "status_note": "Browser sampled and text sampled are distinct; neither implies complete state coverage",
+    "navigation_entries_only": [
+      "/docs/the-dial: Next/Back entry tested, body not analyzed",
+      "/home: logo href tested; final browser URL /; hard entry untested"
+    ]
   },
   "completed_sections": [
     "SECTION-HERO-001",
@@ -241,5 +241,91 @@
     "unknowns.md",
     "evidence-index.md"
   ],
-  "completion_percentage": null
+  "completion_percentage": null,
+  "observed_link_urls": [
+    "https://ampcode.com",
+    "https://ampcode.com/",
+    "https://ampcode.com/about",
+    "https://ampcode.com/app",
+    "https://ampcode.com/app-icon.svg",
+    "https://ampcode.com/auth/sign-in",
+    "https://ampcode.com/auth/sign-in?returnTo=/settings/model-routing?add%3Dchatgpt",
+    "https://ampcode.com/auth/sign-in?returnTo=/workspace",
+    "https://ampcode.com/auth/sign-up",
+    "https://ampcode.com/auth/sign-up?returnTo=/pricing",
+    "https://ampcode.com/chronicle",
+    "https://ampcode.com/contact-sales",
+    "https://ampcode.com/docs",
+    "https://ampcode.com/docs/cli",
+    "https://ampcode.com/docs/cli/remote-control",
+    "https://ampcode.com/docs/collaborate/multiplayer",
+    "https://ampcode.com/docs/models-and-subagents",
+    "https://ampcode.com/docs/orbs",
+    "https://ampcode.com/docs/orbs/event-driven",
+    "https://ampcode.com/docs/orbs/portals",
+    "https://ampcode.com/docs/orbs#review-changes-and-browse-files",
+    "https://ampcode.com/docs/orbs#use-the-terminal",
+    "https://ampcode.com/docs/puck",
+    "https://ampcode.com/docs/the-dial",
+    "https://ampcode.com/docs/tools",
+    "https://ampcode.com/docs/using-amp",
+    "https://ampcode.com/docs/using-amp/a-day-in-amp",
+    "https://ampcode.com/docs/using-amp/screencasts/orbs",
+    "https://ampcode.com/docs/using-amp/screencasts/orbs/add-a-dev-sign-in",
+    "https://ampcode.com/docs/using-amp/screencasts/orbs/get-started-in-orbs",
+    "https://ampcode.com/docs/using-amp/screencasts/orbs/portals-in-orbs",
+    "https://ampcode.com/docs/using-amp/screencasts/orbs/test-agent-friendliness",
+    "https://ampcode.com/guides/context-management",
+    "https://ampcode.com/home",
+    "https://ampcode.com/insiders",
+    "https://ampcode.com/install",
+    "https://ampcode.com/logo-dark.svg",
+    "https://ampcode.com/logo-light.svg",
+    "https://ampcode.com/modes",
+    "https://ampcode.com/news.rss",
+    "https://ampcode.com/news/agents-in-orbs",
+    "https://ampcode.com/news/amp-free-is-full-for-now",
+    "https://ampcode.com/news/event-driven-orbs",
+    "https://ampcode.com/news/from-agent-to-agent",
+    "https://ampcode.com/news/less-noise",
+    "https://ampcode.com/news/many-many-pucks",
+    "https://ampcode.com/news/meet-puck",
+    "https://ampcode.com/news/multiplayer",
+    "https://ampcode.com/news/opus-5.5",
+    "https://ampcode.com/news/plaid-mode",
+    "https://ampcode.com/news/portals",
+    "https://ampcode.com/news/schedule",
+    "https://ampcode.com/news/shared-runners",
+    "https://ampcode.com/news/slack-integration",
+    "https://ampcode.com/news/talk-to-puck",
+    "https://ampcode.com/news/the-dial",
+    "https://ampcode.com/news/the-mac-app-is-your-runner",
+    "https://ampcode.com/notes/how-to-build-an-agent",
+    "https://ampcode.com/notes/putting-an-agent-in-an-orb",
+    "https://ampcode.com/notes/what-i-want-to-tell-you-about-orbs",
+    "https://ampcode.com/podcast",
+    "https://ampcode.com/podcast/season-02/episode-05",
+    "https://ampcode.com/press-kit",
+    "https://ampcode.com/pricing",
+    "https://ampcode.com/privacy-policy",
+    "https://ampcode.com/projects?newProject=1",
+    "https://ampcode.com/security",
+    "https://ampcode.com/settings/model-routing?add=chatgpt",
+    "https://ampcode.com/terms",
+    "https://ampcode.com/what-are-orbs",
+    "https://ampcode.com/workspace"
+  ],
+  "asset_feed_entries": [
+    "https://ampcode.com/app-icon.svg",
+    "https://ampcode.com/logo-dark.svg",
+    "https://ampcode.com/logo-light.svg",
+    "https://ampcode.com/news.rss"
+  ],
+  "future_acceptance_case_count": 40,
+  "mapped_motion_interaction_id_count": 26,
+  "documentation_validation": {
+    "implementation_test_status": "Not executed; no application exists",
+    "record": "evidence/observations/harness-validation.json",
+    "status": "PASS"
+  }
 }
